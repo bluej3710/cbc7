@@ -1,6 +1,6 @@
 # cbc7
 # Jeremy Gruba
-##Augusta Ga
+## Augusta Ga
 
 _**Hello Everyone**_
 
