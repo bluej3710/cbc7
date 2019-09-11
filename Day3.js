@@ -18,3 +18,33 @@ console.log(counter);
 
 //prob 2
 
+var test = 107;
+
+if(test % 2 == 0){
+    console.log(test % 2 == 0); 
+} else{
+    console.log("not even");
+}
+
+//prob 4
+var money=true;
+var loan=false;
+if (money || loan){
+    console.log("Win a car");
+}
+
+if (money&&loan){
+    console.log("Have a car")
+}
+
+if (money){
+
+}
+
+if (loan){
+
+}
+
+if (car){
+
+}
