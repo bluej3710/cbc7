@@ -48,3 +48,15 @@ if (loan){
 if (car){
 
 }
+
+//Day 4 Math Ex
+function checkIt(){
+    var randoNum = Math.floor((Math.random() * 6));
+    document.getElementById("output").innerHTML = randoNum;
+    var input = document.getElementById("input").value;
+    if(input == randoNum){
+       document.getElementById("output").innerHTML += "Correct!";
+       }else{
+       document.getElementById("output").innerHTML += "Wrong!";
+    }
+  }
