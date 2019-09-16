@@ -29,6 +29,7 @@ ListProducts(products);
 var products = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = products;
 
+
 function myFunction() {
   products.push("Kiwi");
   document.getElementById("demo").innerHTML = products;
@@ -37,6 +38,7 @@ function myFunction() {
 
 //Subtracting inventory count
 //Ask if I need to list the array everytime before I declare a function?, Also is it possible to have multiple functions within one array? what difference between shift(begin),pop(end)?
+
 var products = ["];
 document.getElementById("demo").innerHTML = products;
 
@@ -46,6 +48,3 @@ function myFunction() {
 }
 
 //Notify when count ===0~
-
-
-
