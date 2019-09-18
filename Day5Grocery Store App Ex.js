@@ -45,3 +45,10 @@ subtractvaluetoitems("tomato",100);
 //Notifying when OutofStock Number reaches 0
 OutofStock();
 //Make a loop to loop thru the inventory Array so it searches thru all items after the if statement but before the console.
+
+var assert=require("assert");
+describe("addvaluetoitems", function() {
+    it("function that takes 2parameters add 2parameter to the 1st", function(){
+        assert.equal(addvaluetoitems("milk",50),100);
+    });    
+});

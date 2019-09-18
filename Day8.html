@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<!--MyHTML-->
+
+<body>
+    <h1 id="H1">Main</h1>
+    <button id="Button1" onclick="colorchange()">Go!</button>
+    <!--Always Call IDs different never the same Ex P1,P2,P3-->
+    <p id="1stP">Example of Dom Manipulation and adding an Eventlistener - 1stparagragh</p>
+    <p id="P2">Example of Dom Manipulation and adding an Eventlistener - 2ndparagragh </p>
+    <p id="3rd">Example of Dom Manipulation and adding an Eventlistener - 3rdparagraph</p>
+   
+    <p>Click the button to find out how many children the mykids list element below has.</p>
+
+<button onclick="callingthekids()">Try it</button>
+    <ol id="mykids">
+        <li>first element</li>
+        <li>second element</li>
+        <li>third element</li>
+    </ol>
+    <script src="Day8.js"></script>
+</body>
+
+</html>
+<!--Example of Button that changes color-->
+<button type="button" 
+onclick="document.getElementById('H1').style.color = 'red'">
+Click Header!</button>
+
+<button type="Button1" 
+onclick="document.getElementById('1stP').style.color = 'Green'">
+Click!</button>
+
+<button type="Button2" 
+onclick="document.getElementById('P2').style.color = 'Purple'">
+Click Click!</button>
+
+<button type="Button3" 
+onclick="document.getElementById('3rd').style.color = 'orange'">
+Click Click Click!</button>

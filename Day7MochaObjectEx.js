@@ -16,7 +16,7 @@ for (var key in myObject) {
         //alert(prop + " = " + obj[prop]);
     }
 }
-
+//My Example for 3.
 var car = {
     door: 2,
     lights: 4,

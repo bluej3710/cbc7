@@ -1,0 +1,23 @@
+{
+  "name": "cbc7",
+  "version": "1.0.0",
+  "description": "_**Hello Everyone**_",
+  "main": "Day3.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluej3710/cbc7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluej3710/cbc7/issues"
+  },
+  "homepage": "https://github.com/bluej3710/cbc7#readme"
+}
